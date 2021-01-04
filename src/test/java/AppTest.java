@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
     @Test
     public void test() {
         AppMain myTest = new AppMain();
-        assertEquals("Test Passed!", myTest.test());
+        assertEquals("Test Passed!!", myTest.test());
     }
 }
 
