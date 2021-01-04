@@ -40,7 +40,7 @@ public class AppMain {
 		System.out.println("---- DELETE A Car Record -----");
 		carDao.deleteCar(car_4.getId());
 
-		/* ---- GET List of Record ----- */
+		/* ---- GET List of Record ------ */
 		System.out.println("---- GET List of Record -----");
 		List<Car> carList = carDao.getAllCar();
 		carList.forEach(car1 -> System.out.println(car1.getId() + " - " + car1.getBrandName() + " - " + car1.getColour()));
