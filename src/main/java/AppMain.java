@@ -14,7 +14,7 @@ public class AppMain {
 		
 		Car car_1 = new Car("Toyota", "Blue", "Electric");
 		carDao.saveCar(car_1);	
-		Car car_2 = new Car("Hyundai", "Red", "Petrol");
+		Car car_2 = new Car("Hyundai", "Green", "Petrol");
 		carDao.saveCar(car_2);
 		Car car_3 = new Car("BMW", "Black", "Diesel");
 		carDao.saveCar(car_3);
