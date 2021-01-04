@@ -41,7 +41,7 @@ public class AppMain {
 		carDao.deleteCar(car_4.getId());
 
 		/* ---- GET List of Record ------ */
-		System.out.println("---- GET List of Record -----");
+		System.out.println("---- GET List of Record ------");
 		List<Car> carList = carDao.getAllCar();
 		carList.forEach(car1 -> System.out.println(car1.getId() + " - " + car1.getBrandName() + " - " + car1.getColour()));
 		
