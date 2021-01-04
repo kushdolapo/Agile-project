@@ -37,7 +37,7 @@ public class AppMain {
 		System.out.println("Updated Car Record: " + updatedCar.getId() + " - " + updatedCar.getBrandName() + " - " + updatedCar.getColour());
 		
 		/* ---- DELETE A Car Record ----- */
-		System.out.println("---- DELETE A Car Record -----");
+		System.out.println("---- DELETE A Car Record ------");
 		carDao.deleteCar(car_4.getId());
 
 		/* ---- GET List of Record ------ */
