@@ -32,7 +32,7 @@ public class AppMain {
 		carDao.updateCar(car_2);
 		
 		/* ---- GET A Car Record ----- */
-		System.out.println("---- GET A Updated Car Record -----");
+		System.out.println("---- GET A Updated Car Record ------");
 		Car updatedCar = carDao.getCarById(car_2.getId());
 		System.out.println("Updated Car Record: " + updatedCar.getId() + " - " + updatedCar.getBrandName() + " - " + updatedCar.getColour());
 		
